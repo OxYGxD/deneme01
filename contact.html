@@ -8,6 +8,12 @@
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3pro.css">
     <script src="nav.js" defer></script>
     <script src="https://kit.fontawesome.com/10019d67f0.js" crossorigin="anonymous"></script>
+    <script language="JavaScript">
+      var frmvalidator  = new Validator("contactform");
+      frmvalidator.addValidation("name","req","Please provide your name");
+      frmvalidator.addValidation("email","req","Please provide your email");
+      frmvalidator.addValidation("email","email","Please enter a valid email address");
+    </script>
     <title>İhya Kesici Takım</title>
 </head>
 
